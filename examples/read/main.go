@@ -4,8 +4,13 @@ import (
 	"fmt"
 
 	"github.com/ebfe/scard"
-	"github.com/gogetth/sscard"
+	"github.com/gogetth/sscard/sscard"
 )
+
+func main() {
+	//exampleThaiIDCard()
+	exampleThaiIDCard2()
+}
 
 // exampleThaiIDCard ...
 func exampleThaiIDCard() {

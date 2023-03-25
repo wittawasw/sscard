@@ -24,10 +24,10 @@ go get -u github.com/gogetth/sscard
 go mod download
 
 # go build example
-go build -o sscard github.com/gogetth/sscard/main
+go build -o example_read github.com/gogetth/sscard/examples/read/main
 
 # Run example program
-./sscard
+./example_read
 ```
 
 ## References
